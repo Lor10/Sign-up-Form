@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: linear-gradient(rgb(218, 146, 164), rgb(48, 62, 143));
+
+  /*color-primary: #009579;
+  --color-primary-dark: #007f67;
+  --color-secondary: #252c6a;
+  --color-error: #c33;
+  --color-success: #4bb544;
+  --border-radius: 4px;
+  */
+}
+
+.container {
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #fff;
+}
+.container,
+.form-input,
+.form-button {
+  font: 500 1rem "Quicksand", sans-serif;
+}
+
+.form-hidden {
+  display: none;
+}
+
+.form-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+}
+
+.form-message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.form-message-success {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #4bb544;
+}
+.form-message-error {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #c33;
+}
+
+.form-input-group {
+  margin-bottom: 1rem;
+}
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+  background: #eee;
+  transition: background 0.2s, border-color 0.2s;
+}
+.form-input:focus {
+  border-color: #000;
+  background: #fff;
+}
+
+.form-input-error {
+  color: #c33;
+  border-color: #c33;
+}
+.form-input-error-message {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #c33;
+}
+
+.form-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background-color: #009579;
+}
+.form-button:hover {
+  color: #007f67;
+}
+.form-button:active {
+  transform: scale(0.98);
+}
+
+.form-text {
+  text-align: center;
+}
+.form-link {
+  color: #252c6a;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form-link:hover {
+  text-decoration: underline;
+}
